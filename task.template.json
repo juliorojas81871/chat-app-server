@@ -44,10 +44,6 @@
             "name": "BUILD_HASH",
             "value": "$CODEBUILD_RESOLVED_SOURCE_VERSION"
           },
-          {
-            "name": "QUOTES_TABLE_NAME",
-            "value": "quotes-$BUILD_ENV"
-          }
         ],
         "resourceRequirements": null,
         "ulimits": null,
