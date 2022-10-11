@@ -1,6 +1,6 @@
 {
     "family": "$TASK_FAMILY",
-    "taskRoleArn": "arn:aws:iam::111060809428:role/ecs-backend-$BUILD_ENV",
+    "taskRoleArn": "arn:aws:iam::111060809428:role/chat-app-$BUILD_ENV",
     "executionRoleArn": "arn:aws:iam::111060809428:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
     "containerDefinitions": [
